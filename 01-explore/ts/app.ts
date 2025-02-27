@@ -42,5 +42,14 @@ myFunction = () => {
 
 // 10 parameter type in function
 let myFunction2 = (name: string, age: number, boolean?: boolean): void => {
-//    console.log(name, age);
+   //    console.log(name, age);
 };
+
+// 11 Type Alias : we have to declare a type alias like this
+type myType = string | number | boolean;
+type myArr = (string | number | boolean)[];
+let myVariable: myType = "hello";
+let myVariable2: myType = 32;
+let myVariable3: myType = true;
+let arr4: myArr = ["hello", 12, true];
+
