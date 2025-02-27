@@ -118,3 +118,39 @@ console.log(myEnum.seven);
 console.log(myEnum.eight);
 console.log(myEnum.nine);
 console.log(myEnum.ten);
+
+// 19 tuple: we have to declare a tuple like this
+let myTuple: [string, number, boolean] = ["hello", 32, true];
+
+// 20 never: we have to declare a never like this
+let myFunction7 = (): never => {
+   throw new Error("hello");
+};
+
+// 21 unknown: we have to declare a unknown like this 
+let myVariable7: unknown = "hello";
+myVariable7 = 32;
+myVariable7 = true;
+myVariable7 = {};
+
+// 22 any: we have to declare a any like this
+let myVariable8: any = "hello";
+myVariable8 = 32;
+myVariable8 = true;
+myVariable8 = {};
+myVariable8 = [];
+
+// 23 void: we have to declare a void like this
+let myFunction8 = (): void => {
+   //    console.log("hello");
+};
+
+// 24 null: we have to declare a null like this
+let myVariable9: null = null;
+
+// 25 undefined: we have to declare a undefined like this
+let myVariable10: undefined = undefined;        
+
+//  type assertion: we have to declare a type assertion like this 
+let myVariable11: any = "hello";
+let myVariable12 = myVariable11 as string;
