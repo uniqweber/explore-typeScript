@@ -29,3 +29,18 @@ data = 32;
 data = true;
 data = {};
 data = [];
+
+/* 09 Function type
+ * to declare function type a not defined variable we have to declare like this: let myFunction:Function;
+ * after this declaration we can assign any function in this variable. but without function we can't assign any type of data type of something. this is the beaut of typescript.
+ */
+
+let myFunction: Function;
+myFunction = () => {
+   //    console.log("hello");
+};
+
+// 10 parameter type in function
+let myFunction2 = (name: string, age: number, boolean?: boolean): void => {
+//    console.log(name, age);
+};
