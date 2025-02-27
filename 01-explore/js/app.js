@@ -46,3 +46,7 @@ let myFunction3 = (name, age) => {
 let myFunction4 = (name, age) => {
     //    console.log(name, age);
 };
+// 14 Rest parameter: we have to declare a rest parameter like this
+let myFunction5 = (...name) => {
+    //    console.log(name);
+};

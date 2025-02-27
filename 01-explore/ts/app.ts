@@ -63,3 +63,8 @@ let myFunction3: myFunctionSignature = (name, age) => {
 let myFunction4 = (name: string, age?: number) => {
    //    console.log(name, age);
 };
+
+// 14 Rest parameter: we have to declare a rest parameter like this
+let myFunction5 = (...name: string[]) => {
+   //    console.log(name);
+};
