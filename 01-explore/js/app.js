@@ -39,3 +39,10 @@ let myVariable = "hello";
 let myVariable2 = 32;
 let myVariable3 = true;
 let arr4 = ["hello", 12, true];
+let myFunction3 = (name, age) => {
+    //    console.log(name, age);
+};
+// 13 Optional parameter: we have to declare a optional parameter like this
+let myFunction4 = (name, age) => {
+    //    console.log(name, age);
+};

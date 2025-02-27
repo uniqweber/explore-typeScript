@@ -53,3 +53,13 @@ let myVariable2: myType = 32;
 let myVariable3: myType = true;
 let arr4: myArr = ["hello", 12, true];
 
+// 12 function signature: we have to declare a function signature like this
+type myFunctionSignature = (name: string, age: number) => void; // if we this not return something then is void type or if we return any type then it will be any data type. like number string
+let myFunction3: myFunctionSignature = (name, age) => {
+   //    console.log(name, age);
+};
+
+// 13 Optional parameter: we have to declare a optional parameter like this
+let myFunction4 = (name: string, age?: number) => {
+   //    console.log(name, age);
+};
