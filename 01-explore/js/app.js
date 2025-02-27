@@ -64,3 +64,27 @@ function myFunction6(name) {
     return name;
 }
 myFunction6("hello");
+// 18 enum: we have to declare a enum like this
+var myEnum;
+(function (myEnum) {
+    myEnum[myEnum["one"] = 1] = "one";
+    myEnum[myEnum["two"] = 2] = "two";
+    myEnum[myEnum["three"] = 3] = "three";
+    myEnum[myEnum["four"] = 4] = "four";
+    myEnum[myEnum["five"] = 5] = "five";
+    myEnum[myEnum["six"] = 6] = "six";
+    myEnum[myEnum["seven"] = 7] = "seven";
+    myEnum[myEnum["eight"] = 8] = "eight";
+    myEnum[myEnum["nine"] = 9] = "nine";
+    myEnum[myEnum["ten"] = 10] = "ten";
+})(myEnum || (myEnum = {}));
+console.log(myEnum.one);
+console.log(myEnum.two);
+console.log(myEnum.three);
+console.log(myEnum.four);
+console.log(myEnum.five);
+console.log(myEnum.six);
+console.log(myEnum.seven);
+console.log(myEnum.eight);
+console.log(myEnum.nine);
+console.log(myEnum.ten);

@@ -93,3 +93,28 @@ function myFunction6<T>(name: T): T {
 }
 
 myFunction6<string>("hello");
+
+// 18 enum: we have to declare a enum like this
+enum myEnum {
+   one = 1,
+   two = 2,
+   three = 3,
+   four = 4,
+   five = 5,
+   six = 6,
+   seven = 7,
+   eight = 8,
+   nine = 9,
+   ten = 10,
+}
+
+console.log(myEnum.one);
+console.log(myEnum.two);
+console.log(myEnum.three);
+console.log(myEnum.four);
+console.log(myEnum.five);
+console.log(myEnum.six);
+console.log(myEnum.seven);
+console.log(myEnum.eight);
+console.log(myEnum.nine);
+console.log(myEnum.ten);
