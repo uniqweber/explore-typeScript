@@ -59,3 +59,8 @@ class myClass {
     }
 }
 let myVariable6 = new myClass("hello", 32);
+// 17 generics: we have to declare a generics like this
+function myFunction6(name) {
+    return name;
+}
+myFunction6("hello");
