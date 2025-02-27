@@ -50,3 +50,12 @@ let myFunction4 = (name, age) => {
 let myFunction5 = (...name) => {
     //    console.log(name);
 };
+let myVariable5 = { name: "hello", age: 32 };
+// 16 class: we have to declare a class like this
+class myClass {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+}
+let myVariable6 = new myClass("hello", 32);

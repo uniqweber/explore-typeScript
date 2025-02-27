@@ -68,3 +68,21 @@ let myFunction4 = (name: string, age?: number) => {
 let myFunction5 = (...name: string[]) => {
    //    console.log(name);
 };
+
+// 15 interface: we have to declare a interface like this
+interface myInterface {
+   name: string;
+   age: number;
+}
+let myVariable5: myInterface = { name: "hello", age: 32 };
+
+// 16 class: we have to declare a class like this
+class myClass {
+   name: string;
+   age: number;
+   constructor(name: string, age: number) {
+      this.name = name;
+      this.age = age;
+   }
+}
+let myVariable6 = new myClass("hello", 32);
