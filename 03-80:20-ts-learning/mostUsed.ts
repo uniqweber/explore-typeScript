@@ -11,4 +11,14 @@ const greet = (name: string): string => {
   return `Hello ${name}`;
 };
 
+// define object type
 
+type User = {
+  id: number;
+  username: string;
+};
+
+const user: User = {
+  id: 1,
+  username: "john",
+};
