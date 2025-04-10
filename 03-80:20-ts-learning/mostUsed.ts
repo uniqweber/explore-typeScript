@@ -28,4 +28,7 @@ const user: User = {
 const numbers: number[] = [1, 2, 3, 4];
 const users: User[] = [user];
 
+// union types - means the value type can be multiple datatypes with define types
+const currentStatus: "loading" | "error" | "success" = "loading";
+const idOrNumber: number | string = 123;
 
