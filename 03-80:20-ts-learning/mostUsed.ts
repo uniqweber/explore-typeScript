@@ -50,3 +50,10 @@ const phone: Product = {
   name: "IPhone",
   price: 1200,
 };
+
+// generic types
+function identity<T>(value: T): T {
+  return value;
+}
+identity<string>("hello")
+identity<number>(122)
