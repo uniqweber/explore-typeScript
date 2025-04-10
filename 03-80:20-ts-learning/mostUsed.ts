@@ -32,3 +32,9 @@ const users: User[] = [user];
 const currentStatus: "loading" | "error" | "success" = "loading";
 const idOrNumber: number | string = 123;
 
+// type guards - type narrowing
+function printId(id: number | string) {
+  if (typeof id === "string") console.log(id.toUpperCase());
+  else console.log(id.toFixed(2));
+}
+
