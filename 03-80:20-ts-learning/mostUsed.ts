@@ -38,3 +38,15 @@ function printId(id: number | string) {
   else console.log(id.toFixed(2));
 }
 
+// interface
+interface Product {
+  id: number;
+  name: string;
+  price: number;
+}
+
+const phone: Product = {
+  id: 1,
+  name: "IPhone",
+  price: 1200,
+};
