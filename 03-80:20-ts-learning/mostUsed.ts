@@ -55,5 +55,14 @@ const phone: Product = {
 function identity<T>(value: T): T {
   return value;
 }
-identity<string>("hello")
-identity<number>(122)
+identity<string>("hello");
+identity<number>(122);
+
+// Enums
+/* enum Role {
+  // x TypeScript enum is not supported in strip-only mode
+  Admin,
+  User,
+  Guest,
+}
+const myRole: Role = Role.Admin; */
