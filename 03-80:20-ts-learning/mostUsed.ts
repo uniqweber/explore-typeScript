@@ -16,9 +16,16 @@ const greet = (name: string): string => {
 type User = {
   id: number;
   username: string;
+  isAdmin?: boolean;
 };
 
 const user: User = {
   id: 1,
   username: "john",
 };
+
+// define array and types
+const numbers: number[] = [1, 2, 3, 4];
+const users: User[] = [user];
+
+
