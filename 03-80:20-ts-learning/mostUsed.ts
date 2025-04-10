@@ -66,3 +66,8 @@ identity<number>(122);
   Guest,
 }
 const myRole: Role = Role.Admin; */
+
+//  type assertion 
+
+let value:any = "hello";
+let ByLength: number = (value as string).length
